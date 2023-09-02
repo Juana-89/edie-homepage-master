@@ -43,3 +43,24 @@
     transition: .5s;
     cursor: pointer;
 }
+
+.btn-card {
+    background-color: #E0E0E0;
+    color: #828282; 
+}
+.hover-boton:hover{
+    background-color: #007bff;
+    color: #fff;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.text-title {
+    font-size: 14px;
+}
+
+.mr-4{
+    margin-right: 120px;
+}
