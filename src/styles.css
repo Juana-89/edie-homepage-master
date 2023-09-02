@@ -6,3 +6,23 @@
  font-family: 'Poppins', sans-serif;
    
 }
+
+.ml-4 {
+    margin-left: 100px;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-15 {
+    width: 20%;
+}
+
+.ml-5 {
+    margin-left: 150px;
+}
+
+.ml-3 {
+    margin-left: 50px;
+}
