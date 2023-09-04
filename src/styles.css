@@ -66,5 +66,13 @@
 }
 
 .w-5 {
-    width: 80px;
+    width: 55px;
+}
+
+.w-10 {
+    width: 260px;
+}
+
+.h-10 {
+    height: 260px;
 }
