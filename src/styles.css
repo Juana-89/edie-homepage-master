@@ -3,8 +3,8 @@
 }
 
 .font_family_poppins {
- font-family: 'Poppins', sans-serif;
-   
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .ml-4 {
@@ -17,7 +17,8 @@
 
 .w-30 {
     width: 30%;
-} 
+}
+
 .w-15 {
     width: 20%;
 }
@@ -31,24 +32,25 @@
 }
 
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 1,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
 }
 
 .shadow-hover:hover {
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
     transition: .5s;
     cursor: pointer;
 }
 
 .btn-card {
     background-color: #E0E0E0;
-    color: #828282; 
+    color: #828282;
 }
-.hover-boton:hover{
+
+.hover-boton:hover {
     background-color: #007bff;
     color: #fff;
 }
@@ -61,7 +63,7 @@
     font-size: 14px;
 }
 
-.mr-4{
+.mr-4 {
     margin-right: 120px;
 }
 
@@ -75,4 +77,8 @@
 
 .h-10 {
     height: 260px;
+}
+
+.bg-footer {
+    background-color: #100E1D;
 }
