@@ -53,6 +53,10 @@
     width: 260px;
 }
 
+.w-95 {
+    width: 95%;
+}
+
 .h-10 {
     height: 260px;
 }
@@ -115,6 +119,7 @@
     .wl-10 {
         width: 260px
     }
+
     .hl-10 {
         height: 260px
     }
