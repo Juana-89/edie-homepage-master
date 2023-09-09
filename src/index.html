@@ -27,7 +27,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg bg-white fixed-top">
     <a class="navbar-brand font-weight-bold m-2 font_family_heebo" href="#">Edie</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
       aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,32 +36,32 @@
     <div class="collapse navbar-collapse justify-content-end font_family_hebo" id="navbarText">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="#services">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Our Works</a>
+          <a class="nav-link" href="#works">Our Works</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Clients</a>
+          <a class="nav-link" href="#clients">Clients</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
-  <section class="m-5">
-    <div class="container text-left p-3">
-      <div class="row align-items-start font_family_poppins p-4">
-        <div class="w-50 pl-5 ml-4">
+  <section class="m-lg-5 m-2">
+    <div id="home" class="container text-left p-3">
+      <div class="row align-items-start font_family_poppins p-lg-4">
+        <div class="wl-50 pl-lg-5 p-0 ml-4">
           <p class="text-primary">Unhappy with your website?</p>
-          <h2 class="">We create beautiful and fast web services</h1>
+          <h2 class="text-sm">We create beautiful and fast web services</h1>
         </div>
         <img src="./assets/heroImage.jpg" class="rounded-5 img-fluid">
-        <div class="w-35 pl-5 ml-4 pt-4 ">
+        <div class="wl-35 pl-5 ml-4 pt-4 ">
           <div class="pb-4">
             <h2 class="pb-4">Story, emotion and purpose</h1>
               <p class="text-justify">We help transform your ideas into real world applications that will outperform
@@ -73,18 +73,19 @@
             <p class="text-secondary">Want us to contact you?</p>
           </div>
           <div class="input-group mb-3">
-            <input type="text" class="form-control bg-light rounded-start-2" placeholder="Email" aria-describedby="basic-addon2">
+            <input type="text" class="form-control bg-light rounded-start-2" placeholder="Email"
+              aria-describedby="basic-addon2">
             <a href="#" class="btn btn-primary rounded-2">Join</a>
           </div>
         </div>
       </div>
     </div>
-    <div class="ml-2">
+    <div id="services" class="m-2">
       <div class="w-15 ml-5">
-        <h5>We offer high demand services</h5>
+        <h3 class="font_family_poppins">We offer high demand services</h3>
       </div>
-      <div class="row g-4 p-5 row-cols-1 row-cols-lg-3 font_family_poppins">
-        <div class="feature col shadow-hover rounded-4 p-5 m-3 w-30">
+      <div class="row g-4 p-lg-5 row-cols-1 row-cols-lg-3 font_family_poppins">
+        <div class="feature col shadow-hover rounded-4 p-lg-5 p-2 m-3 wl-30">
           <div
             class="feature-icon d-inline-flex mb-4 justify-content-center text-bg-primary bg-gradient fs-2 mb-3 p-3 rounded-4">
             <span class="material-symbols-outlined">
@@ -99,7 +100,7 @@
             <button type="button" class="btn btn-card btn-primary border-0 hover-boton">Get started</button>
           </a>
         </div>
-        <div class="feature col shadow-hover rounded-4 p-5 m-3 w-30">
+        <div class="feature col shadow-hover rounded-4 p-lg-5 p-2 m-3 wl-30">
           <div
             class="feature-icon d-inline-flex mb-4 align-items-center justify-content-center text-bg-success bg-gradient fs-2 mb-3 p-3 rounded-4">
             <span class="material-symbols-outlined">
@@ -114,7 +115,7 @@
             <button type="button" class="btn btn-card btn-primary border-0 hover-boton">Get started</button>
           </a>
         </div>
-        <div class="feature col shadow-hover rounded-4 p-5 m-3 w-30">
+        <div class="feature col shadow-hover rounded-4 p-lg-5 p-2 m-3 wl-30">
           <div
             class="feature-icon d-inline-flex mb-4 align-items-center justify-content-center text-bg-danger bg-gradient fs-2 mb-3 p-3 rounded-4">
             <span class="material-symbols-outlined">
@@ -131,24 +132,24 @@
         </div>
       </div>
     </div>
-    <div class="ml-2 flex">
-      <div class="w-25 ml-5">
-        <h4>Good design means good business</h4>
+    <div class="m-2 flex" id="works">
+      <div class="wl-25 ml-5">
+        <h3>Good design means good business</h3>
       </div>
-      <div class="container ml-4 p-5">
+      <div class="container ml-4 p-lg-5">
         <div class="row justify-content-center">
           <div class="col-md-6 mb-3 mt-100">
-            <img src="./assets/smarthome.jpg" class="rounded-4 w-75">
+            <img src="./assets/smarthome.jpg" class="rounded-4 wl-75 w-75">
             <p class="text-title mt-2">Full stack application</p>
             <h5>Smart home dashboard</h5>
           </div>
           <div class="col-md-6 mb-3">
-            <img src="./assets/onboard.png" class="rounded-4 w-75">
+            <img src="./assets/onboard.png" class="rounded-4 wl-75 w-75">
             <p class="text-title mt-2">UX/UI design</p>
             <h5>Onboard application</h5>
           </div>
           <div class="col-md-6 mb-3 mt-100">
-            <img src="./assets/booking.png" class="rounded-4 w-75">
+            <img src="./assets/booking.png" class="rounded-4 wl-75 w-75">
             <p class="text-title mt-2">Mobile application</p>
             <h5>Booking system</h5>
           </div>
@@ -165,27 +166,27 @@
         </a>
       </div>
     </div>
-    <div class="container d-flex align-content-center gap-2 p-3 mb-4 font_family_poppins">
+    <div class="container d-sm-flex align-content-center gap-2 p-3 mb-4 font_family_poppins">
       <div class="col ml-4">
         <p class="text-danger">Meet the team</p>
         <h3 class="">We are chilled and a laidback team</h3>
         <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Meet the team</p>
       </div>
-      <div class="col-6">
+      <div class="col-12 col-md-6">
         <div class="row align-items-center">
           <div class="col-md-6 mb-4">
-            <img src="./assets/person3.png" alt="" class="w-10 h-10 img-responsive rounded">
+            <img src="./assets/person3.png" alt="" class="wl-10 hl-10 w-8 img-responsive rounded">
           </div>
           <div class="col-md-6">
-            <img src="./assets/person1.png" alt="" class="w-10 h-10 img-responsive rounded mb-4">
-            <img src="./assets/person2.png" alt="" class="w-10 h-10 img-responsive rounded">
+            <img src="./assets/person1.png" alt="" class="wl-10 hl-10 w-8 img-responsive rounded mb-4">
+            <img src="./assets/person2.png" alt="" class="wl-10 hl-10 w-8 img-responsive rounded">
           </div>
         </div>
       </div>
     </div>
-    <div class="container text-left p-3">
+    <!-- <div class="container text-left p-3" id="clients">
       <div class="row font_family_poppins p-4">
-        <div class="w-75 pl-5 ml-4">
+        <div class="wl-75 pl-5 ml-4">
           <h2 class="">“Fast and outstanding resutls. Edie understands their customer’s needs. They have a
             young and talented team.”</h2>
         </div>
@@ -197,19 +198,107 @@
           </div>
         </div>
       </div>
+    </div> -->
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="row font_family_poppins p-4">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="wl-75 pl-5 ml-4">
+              <h2 class="">“Fast and outstanding resutls. Edie understands their customer’s needs. They have a
+                young and talented team.”</h2>
+            </div>
+            <div class="col d-flex align-items-center ml-4 p-3">
+              <img src="./assets/person4.png" alt="" class="rounded w-5">
+              <div class="m-2">
+                <p class="rounded m-0 fw-bold">Carlos Tran</p>
+                <p class="rounded m-0">The Decorate Gatsby</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="wl-75 pl-5 ml-4">
+              <h2 class="">“Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis fuga,
+                qui ratione aliquam nulla recusandae ipsum.”</h2>
+            </div>
+            <div class="col d-flex align-items-center ml-4 p-3">
+              <img src="./assets/person5.png" class="rounded w-5" alt="">
+              <div class="m-2">
+                <p class="rounded m-0 fw-bold">Katherine Willows</p>
+                <p class="rounded m-0">Graphic Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="wl-75 pl-5 ml-4">
+              <h2 class="">“Ea accusamus repellendus nobis quos officia earum molestiae eos iusto unde
+                architecto totam quia sed voluptate.”</h2>
+            </div>
+            <div class="col d-flex align-items-center ml-4 p-3">
+              <img src="./assets/person6.png" class="rounded w-5" alt="">
+              <div class="m-2">
+                <p class="rounded m-0 fw-bold">Jane McGregor</p>
+                <p class="rounded m-0">Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="wl-75 pl-5 ml-4">
+              <h2 class="">“Cupiditate quas quo vel minus voluptate quidem maiores ipsa non totam deserunt minima, fugit
+                quia quod impedit debitis, itaque beatae
+                aspernatur!”</h2>
+            </div>
+            <div class="col d-flex align-items-center ml-4 p-3">
+              <img src="./assets/person7.png" class="rounded w-5" alt="">
+              <div class="m-2">
+                <p class="rounded m-0 fw-bold">Greg Brown</p>
+                <p class="rounded m-0">Business Manager</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+          viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+          <style>
+            svg {
+              fill: #007bff !important
+            }
+          </style>
+          <path
+            d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" />
+        </svg>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+          viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+          <style>
+            svg {
+              fill: #007bff !important
+            }
+          </style>
+          <path
+            d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+        </svg>
+      </button>
     </div>
+
   </section>
   <div class="b-example-divider"></div>
-  <footer class="bg-footer p-5  text-white font_family_poppins">
+  <footer id="contact" class="bg-footer p-5 text-white font_family_poppins">
     <div class="row">
-      <div class="col-6 col-md-2 mb-3 ml-4">
+      <div class="col-12 col-md-2 mb-5 ml-4">
         <p>Home</p>
         <p>Services</p>
         <p>Our Works</p>
         <p>Clients</p>
         <p>Contact</p>
       </div>
-      <div class="col-6 col-md-2 mb-3 ml-4 font_family_heebo">
+      <div class="col-12 col-md-2 mb-5 ml-4 font_family_heebo">
         <p class="fs-3">Edie</p>
         <div class="mt-20">
           <svg xmlns="http://www.w3.org/2000/svg" height="1.3em"
@@ -243,18 +332,23 @@
               d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
           </svg>
         </div>
-
       </div>
-      <div class="col-md-5 offset-md-1 mb-3">
+      <div class="col-md-5 offset-md-1 mb-5">
         <form>
           <h6>Want us to contact you?</h6>
-          <div class="d-flex flex-column flex-sm-row w-100 input-group">
+          <div class="d-flex flex-sm-row w-100 input-group">
             <label for="newsletter1" class="visually-hidden">Email address</label>
-            <input id="newsletter1" type="text" class="form-control bg-light rounded-start-2" placeholder="Email address">
+            <input id="newsletter1" type="text" class="form-control bg-light rounded-start-2"
+              placeholder="Email address">
             <button class="btn btn-primary" type="button">Join</button>
           </div>
         </form>
       </div>
+    </div>
+    <div class="text-center py-4 border-top">
+      <p>© 2023 Created by <a class="enlace" target="_blank" href="https://github.com/Juana-89"><b>Juana Llanje</b></a>
+        -
+        devChallenges.io 2023 ❤️</p>
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
