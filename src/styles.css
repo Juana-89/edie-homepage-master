@@ -82,3 +82,7 @@
 .bg-footer {
     background-color: #100E1D;
 }
+
+.mt-20 {
+    margin-top: -20px;
+}
