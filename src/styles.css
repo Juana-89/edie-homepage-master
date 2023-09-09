@@ -125,3 +125,10 @@
     }
 
 }
+
+@media (max-width: 576px) {
+    .margin {
+        margin-top: -200px;
+        margin-left: 20px;
+    }
+}
